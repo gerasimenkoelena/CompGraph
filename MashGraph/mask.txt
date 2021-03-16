@@ -1,0 +1,1 @@
+['.sln', '.txt', '.py', '.suo', '.db', '.ipch', '.exe', '.ilk', '.pdb', '.h', '.editorconfig', '.inl', '.in', '.hpp', '.cpp', '.lib', '.png', '.jpg', '.vcxproj', '.filters', '.user', '.obj', '.log', '.idb', '.tlog', '.lastbuildstate', '.blend', '.mtl', '.shader', '.tga']

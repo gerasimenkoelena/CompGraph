@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\stb_image.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\GLAD\GLAD\src\glad.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Includes\Shader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Camera.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Model.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Mesh.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\stb_image.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="textures.frag.txt" />
+    <Text Include="textures.vs.txt" />
+    <Text Include="lamp.frag.txt" />
+    <Text Include="lamp.vs.txt" />
+    <Text Include="lighting.frag.txt" />
+    <Text Include="lighting.vs.txt" />
+    <Text Include="stencil_single_color.fs.txt" />
+    <Text Include="blending.fs.txt" />
+    <Text Include="skybox.fs.txt" />
+    <Text Include="skybox.vs.txt" />
+    <Text Include="cubemaps.fs.txt" />
+    <Text Include="cubemaps.vs.txt" />
+    <Text Include="blending.vs.txt" />
+    <Text Include="5.1.parallax_mapping.fs.txt" />
+    <Text Include="5.1.parallax_mapping.vs.txt" />
+    <Text Include="advanced_lighting.fs.txt" />
+    <Text Include="advanced_lighting.vs.txt" />
+    <Text Include="debug_quad.fs.txt" />
+    <Text Include="debug_quad.vs.txt" />
+    <Text Include="shadow_mapping_depth.fs.txt" />
+    <Text Include="shadow_mapping_depth.vs.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="wood.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="200px-Awesome.svg.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="logs.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bricks2.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bricks2_disp.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bricks2_normal.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="window.fr" />
+    <None Include="window.ver" />
+  </ItemGroup>
+</Project>
